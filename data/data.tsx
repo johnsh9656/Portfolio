@@ -191,7 +191,7 @@ export const projectsData = [
 ]
 
 export const techStack = [
-  'html', 'css', 'javascript', 'typescript', 'react', 'next', 'tailwind', 'npm', 'vite', 'graphql', 'firebase', 'csharp', 'unity', 'java', 'python', 'mysql', 'linux', 'git', 'nodejs', 'postcss', 'framer'
+  'html', 'css', 'javascript', 'typescript', 'react', 'next', 'tailwind', 'npm', 'vite', 'graphql', 'firebase', 'csharp', 'unity', 'java', 'maven', 'python', 'mysql', 'linux', 'git', 'nodejs', 'postcss', 'framer', 'c', 'tensorflow', 'numpy', 'opencv', 'flask'
 ]
 
 export const TAB_DATA = [
@@ -214,8 +214,8 @@ export const TAB_DATA = [
         <div>
           <h3 className="text-lg font-semibold mt-0"><span className="text-md font-normal text-gray-300">Software Engineering, Bachelor of Engineering</span></h3>
           <span className="font-gray-500 font-semibold text-md">McMaster University</span>
-          <p>2023-2028</p>
-          <p>GPA: 11.8/12, 3.9/4</p>
+          <p>2023-2027</p>
+          <p>GPA: 11.7/12, 3.91/4</p>
         </div>
         <div>
           <h3 className="text-lg font-semibold mt-4"><span className="text-md font-normal text-gray-300">IB Diploma</span></h3>

@@ -2,7 +2,7 @@ import React from 'react';
 import { 
   SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiVite, SiHtml5, SiCss3, SiJavascript, 
   SiFirebase, SiHostinger, SiNpm, SiUnity, SiCsharp, SiC, SiPython, SiLinux, SiGit, 
-  SiMysql, SiGraphql, SiNodedotjs, SiPostcss, SiFramer
+  SiMysql, SiGraphql, SiNodedotjs, SiPostcss, SiFramer, SiTensorflow, SiOpencv, SiFlask, SiNumpy, SiApachemaven 
 } from 'react-icons/si';
 import { FaJava } from "react-icons/fa6";
 
@@ -31,6 +31,12 @@ const Icon = ({ style, size = 40 }: { style: string; size?: number }) => {
     nodejs: { icon: <SiNodedotjs />, color: '#339933' }, // Node.js
     postcss: { icon: <SiPostcss />, color: '#DD3A0A' }, // PostCSS
     framer: { icon: <SiFramer />, color: '#0055FF' }, // Framer Motion
+    tensorflow: { icon: <SiTensorflow />, color: '#FF6F00' }, // TensorFlow
+    pillow: { icon: <SiPython />, color: '#3677A6' }, // Pillow (uses Python icon as no dedicated icon exists)
+    numpy: { icon: <SiNumpy />, color: '#013243' }, // numpy
+    opencv: { icon: <SiOpencv />, color: '#5C3EE8' }, // OpenCV
+    flask: { icon: <SiFlask />, color: '#000000' }, // Flask
+    maven: { icon: <SiApachemaven />, color: '#C71A36' }, // Maven
   };
 
   // Check if the icon exists in the map, otherwise return a default placeholder

@@ -10,9 +10,11 @@ interface WorkCardProps {
   imageUrl: string;
   link: string;
   timeline: string;
+  extraLink: string;
+  extraLinkText: string;
 }
 
-const WorkCard: FC<WorkCardProps> = ({ title, employer, description, buttonText, imageUrl, link, timeline }) => {
+const WorkCard: FC<WorkCardProps> = ({ title, employer, description, buttonText, imageUrl, link, timeline, extraLink, extraLinkText }) => {
   
   return (
     <div className="relative bg-black text-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-sm mx-auto m-4">
@@ -37,7 +39,7 @@ const WorkCard: FC<WorkCardProps> = ({ title, employer, description, buttonText,
 
     { link == "" ? null :
       <div className="mt-6 flex justify-between items-center">
-        <Link href={link} className="text-sm text-gray-400 hover:text-gray-300 transition duration-300">Try now →</Link>
+        <Link href={extraLink} className="text-sm text-gray-400 hover:text-gray-300 transition duration-300">{extraLinkText}</Link>
         <Link href={link}className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition duration-300">{buttonText}</Link>
       </div>
     }
