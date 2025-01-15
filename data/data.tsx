@@ -3,12 +3,138 @@ import Icon from "@/app/components/ui/Icon";
 import Link from "next/link";
 
 export const projectTags = [
-  'All', 'Web Dev', 'Game Dev', 'Front-End', 'Back-End', 'Automation', 'Hackathon',
+  'All', 'Web Dev', 'Game Dev', 'Front-End', 'Back-End', 'Machine Learning',  'Automation', 'Hackathon', 'Course Work', "Teams"
 ]
 
 export const projectsData = [
   {
-    id: 1,
+    id: 13,
+    title: 'Art Suggester AI',
+    description: `Full-stack web app to suggest artwork based on art supplies, made with the McMaster AI Society.`,
+    image: "//harrisonjohns.me/images/artsuggester.png",
+    date: "October 2024 - February 2025",
+    tags: ["Machine Learning", "Web Dev", "Front-End", "Back-End", "Teams"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/McMasterAI2024-2025/ArtSuggesterAI', color: 'thunder'},
+    ],
+    techStack: ['python', 'tensorflow', 'numpy', 'flask', 'react', 'typescript'],
+    content: () => {
+      return (
+        <p>
+          🎨 Art Suggester is an AI-based art recommendation tool designed to optimize image recognition techniques using a convolutional neural network (CNN). It identifies various art mediums such as paint, pencil crayons, and markers, providing personalized recommendations based on user preferences.
+          <br/><br/>
+          🖌️ I worked on planning, the front-end design and code, the Flask-based API, getting datasets for the CNN models, preprocessing the training and testing data, and optimizing the object and colour detection of user-uploaded images.
+        </p>
+      );
+    },
+  },
+  {
+    id: 12,
+    title: 'AI Clothing Classifier',
+    description: `Full-stack web app with a custom TensorFlow CNN to classify user-uploaded images of clothes.`,
+    image: "//harrisonjohns.me/images/clothingclassifier.png",
+    date: "January 2025",
+    tags: ["Machine Learning", "Web Dev", "Front-End", "Back-End"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/johnsh9656/ClothingClassification', color: 'thunder'},
+    ],
+    techStack: ['python', 'tensorflow', 'numpy', 'pil', 'flask', 'next', 'typescript', 'tailwind'],
+    content: () => {
+      return (
+        <p>
+          👕 This full-stack web app uses a machine learning model to classify clothing images. Upload an image, and the app predicts the most likely category (e.g., T-shirt, coat) along with the most likely classifications and their respective probabilities.
+          <br/><br/>
+          💻 What I built:
+          Trained the ML model in TensorFlow (Google Colab) using the Fashion MNIST dataset.
+          Flask backend to handle image uploads, preprocessing and interacting with the ML model.
+          Next.js (w/ TypeScript) + Tailwind CSS frontend for responsive, user-friendly experience.
+        </p>
+      );
+    },
+  },
+  {
+    id: 11,
+    title: 'GDSC McMaster Website',
+    description: `Official website for GDSC's McMaster chapter (not yet live).`,
+    image: "//harrisonjohns.me/images/gdscwebsite.png",
+    date: "October 2024 - January 2025",
+    tags: ["Web Dev", "Front-End", "Teams"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/DSC-McMaster-U/website', color: 'thunder'},
+    ],
+    techStack: ['next', 'react', 'typescript', 'tailwind', 'vite', 'npm', 'sanity', 'jira'],
+    content: () => {
+      return (
+        <p>
+          💻 I developed the new GDSC website (soon to be live) as part of the McMaster GDSC's development team. I collaborated in an agile Jira environment to build a new responsive website with an industry tech stack, while adhering to Material Design rules. I created and maintained feature-specific Git branches, ensuring clean code reviews and integration into the main branches. Additionally, I integrated Sanity CMS for dynamic content updates, enabling non-technical contributors to manage the site
+        </p>
+      );
+    },
+  },
+  {
+    id: 10,
+    title: 'GDSC Mac-a-Thon Website',
+    description: `Official website for the McMaster GDSC's 2025 hackathon, the Mac-a-Thon.`,
+    image: "//harrisonjohns.me/images/macathon.png",
+    date: "December 2024 - January 2025",
+    tags: ["Web Dev", "Front-End", "Teams"],
+    links: [
+      {title: 'Live Site', url: 'https://mac-a-thon.gdscmcmasteru.ca/', color: 'accent'},
+      {title: 'GitHub', url: 'https://github.com/DSC-McMaster-U/mac-a-thon', color: 'thunder'},
+    ],
+    techStack: ['next', 'react', 'typescript', 'tailwind', 'vite', 'npm', 'sanity', 'jira'],
+    content: () => {
+      return (
+        <p>
+          💻 A modern website I developed as part of the McMaster GDSC's development team. I worked in an agile Jira environment with the team lead to build a responsive, modern website to be used by all students interested in the hackathon. I used a modern tech stack and Sanity integration so that the non-technical teams could manage the content of the site.
+        </p>
+      );
+    },
+  },
+  {
+    id: 9,
+    title: 'Blackjack in C',
+    description: `Blackjack recreated with C for a linux environment, with a GUI (team project).`,
+    image: "//harrisonjohns.me/images/blackjack.png",
+    date: "December 2024",
+    tags: ["Course Work", "Game Dev"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/johnsh9656/Blackjack-in-C', color: 'accent'},
+    ],
+    techStack: ['c', 'linux', 'git'],
+    content: () => {
+      return (
+        <p>
+          ♠️ As a final group project, I worked in a small team of 4 to develop Blackjack in C, working with a terminal interface or with a GUI.
+          <br></br><br></br>
+          I worked on the card logic, handling game over states, the main game loop, and part of the build coverage tests and GitHub Actions.
+        </p>
+      );
+    },
+  },
+  {
+    id: 8,
+    title: 'Autonomous Tic-Tac-Toe',
+    description: `2, 1, or 0 player Tic-Tac-Toe made with Java and Maven with OOP design principles.`,
+    image: "//harrisonjohns.me/images/tictactoe.png",
+    date: "November 2024",
+    tags: ["Course Work", "Automation", "Game Dev"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/johnsh9656/TicTacToe', color: 'accent'},
+    ],
+    techStack: ['java', 'maven'],
+    content: () => {
+      return (
+        <p>
+          🌮 Tic-Tic-Toe, made for SFWRENG 2OP3. 2 Projects: one is standard tic-tac-toe with a 3x3 board. It can be played by 2, 1, or 0 user players, with 0, 1, or 2 computer players with set winning strategies. 
+          <br></br><br></br>
+          The other project (Project2) extends the functionality of the first project, with a variable grid size (3-20) and updated computer players to match.
+        </p>
+      );
+    },
+  },
+  {
+    id: 7,
     title: 'Next.js Portfolio Website',
     description: `A modern, responsive Next.js and Tailwind portfolio hosted on Hostinger.`,
     image: "//harrisonjohns.me/images/porthead.png",
@@ -28,7 +154,7 @@ export const projectsData = [
     },
   },
   {
-    id: 2,
+    id: 6,
     title: '30 Days of Web Dev',
     description: `30-day web dev challenge, going from basic HTML basics to a full-stack Duolingo clone.`,
     date: "July - August,  2024",
@@ -48,7 +174,7 @@ export const projectsData = [
     },
   },
   {
-    id: 3,
+    id: 5,
     title: 'Traitor Online',
     description: `Multiplayer game made using Unity's Netcode for GameObjects, inspired by Werewolf.`,
     date: 'Sometime in 2024...',
@@ -90,12 +216,12 @@ export const projectsData = [
     },
   },
   {
-    id: 5,
+    id: 3,
     title: 'Engineering Design Projects',
     description: `4 Engineering Design Projects for the 1P13 course, with a live portfolio.`,
     date: 'September 2023 - April 2024',
     image: "//harrisonjohns.me/images/1p13.png",
-    tags: ["Automation"],
+    tags: ["Automation", "Course Work"],
     techStack: ['python'],
     links: [
       {title: 'Portfolio Site', url: 'https://sideways-lung-749.notion.site/Harrison-Johns-1P13-Portfolio-e57e771cef2e4359855c3e8a8d2ba923', color: 'accent'},
@@ -122,7 +248,7 @@ export const projectsData = [
     },
   },
   {
-    id: 6,
+    id: 2,
     title: 'Another VR Dungeon Game',
     description: `VR dungeon crawler made with Unity's XR integration.`,
     date: 'August, 2023',
@@ -144,7 +270,7 @@ export const projectsData = [
     },
   },
   {
-    id: 7,
+    id: 1,
     title: 'Untitled Racing Game',
     description: `A single-player 3D aracade racing game made with the Unity 3D Engine.`,
     date: '2022',
@@ -167,7 +293,7 @@ export const projectsData = [
     },
   },
   {
-    id: 8,
+    id: 0,
     title: 'Laser Defender',
     description: `A Galaga-inspired infinite wave shooter made using the Unity 2D Engine.`,
     date: 'December 2019',
