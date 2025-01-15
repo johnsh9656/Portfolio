@@ -2,7 +2,8 @@ import React from 'react';
 import { 
   SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiVite, SiHtml5, SiCss3, SiJavascript, 
   SiFirebase, SiHostinger, SiNpm, SiUnity, SiCsharp, SiC, SiPython, SiLinux, SiGit, 
-  SiMysql, SiGraphql, SiNodedotjs, SiPostcss, SiFramer, SiTensorflow, SiOpencv, SiFlask, SiNumpy, SiApachemaven 
+  SiMysql, SiGraphql, SiNodedotjs, SiPostcss, SiFramer, SiTensorflow, SiOpencv, SiFlask, 
+  SiNumpy, SiApachemaven, SiSanity, SiJira
 } from 'react-icons/si';
 import { FaJava } from "react-icons/fa6";
 
@@ -37,6 +38,8 @@ const Icon = ({ style, size = 40 }: { style: string; size?: number }) => {
     opencv: { icon: <SiOpencv />, color: '#5C3EE8' }, // OpenCV
     flask: { icon: <SiFlask />, color: '#000000' }, // Flask
     maven: { icon: <SiApachemaven />, color: '#C71A36' }, // Maven
+    sanity: { icon: <SiSanity />, color: '#f75e4d' }, // Sanity
+    jira: { icon: <SiJira />, color: '#416ff0' }, // Jira
   };
 
   // Check if the icon exists in the map, otherwise return a default placeholder

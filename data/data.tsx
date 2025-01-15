@@ -17,7 +17,7 @@ export const projectsData = [
     links: [
       {title: 'GitHub', url: 'https://github.com/McMasterAI2024-2025/ArtSuggesterAI', color: 'thunder'},
     ],
-    techStack: ['python', 'tensorflow', 'numpy', 'flask', 'react', 'typescript'],
+    techStack: ['python', 'tensorflow', 'numpy', 'pillow', 'flask', 'react', 'typescript'],
     content: () => {
       return (
         <p>
@@ -38,7 +38,7 @@ export const projectsData = [
     links: [
       {title: 'GitHub', url: 'https://github.com/johnsh9656/ClothingClassification', color: 'thunder'},
     ],
-    techStack: ['python', 'tensorflow', 'numpy', 'pil', 'flask', 'next', 'typescript', 'tailwind'],
+    techStack: ['python', 'tensorflow', 'numpy', 'pillow', 'flask', 'next', 'typescript', 'tailwind'],
     content: () => {
       return (
         <p>
