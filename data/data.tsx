@@ -8,6 +8,29 @@ export const projectTags = [
 
 export const projectsData = [
   {
+    id: 14,
+    title: '🫠 Employ Me!',
+    description: `Full-stack web app to help students and employers navigate the job market, made for UOttaHack 7 (2025).`,
+    image: "//harrisonjohns.me/images/employme.png",
+    date: "January 2025",
+    tags: ["Machine Learning", "Web Dev", "Front-End", "Back-End", "Teams", "Hackathon"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/TysonLine/hackathon', color: 'thunder'},
+    ],
+    techStack: ['python', 'next', 'react', 'tailwind', 'mongo', 'supabase', 'typescript', 'expressjs', 'openai'],
+    content: () => {
+      return (
+        <p>
+          💼 EmployMe! simplifies the job search experience with features like:<br/>
+          ✅ One-Click Job Applications to save candidates from endless repetitive tasks.<br/>
+          🔍 AI-Driven Top Applicant Insights, ensuring resumes shine where it matters most.<br/>
+          📝 AI-Generated Resume Summaries for Employers, highlighting key strengths with precision.<br/>
+          🔔 A vision for Real-Time Application Updates, empowering job seekers with transparency and feedback.
+        </p>
+      );
+    },
+  },
+  {
     id: 13,
     title: 'Art Suggester AI',
     description: `Full-stack web app to suggest artwork based on art supplies, made with the McMaster AI Society.`,
