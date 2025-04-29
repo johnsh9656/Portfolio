@@ -14,6 +14,16 @@ const About = () => {
     });
   }
 
+  const about = <>
+    <p className='mb-2'><span className='border-b-2 border-accent'>Hello!</span>  I'm Harrison — a software developer and Software Engineering student at McMaster University. I like building things that are practical, clean, and actually useful. My background is mainly in full-stack development, but I've also worked on desktop apps, game projects, and machine learning integrations.</p>
+    <p className='mb-2'>I'm someone who learns by doing — whether that's picking up a new tech stack for a project, troubleshooting hardware and software, or refining the way a system fits together. I care about writing code that's not just functional but understandable, maintainable, and well-designed.</p>
+    <p/>
+    <p>Outside of coding, I'm always working on something — whether that's fencing competitively, learning a new instrument, or chasing new ideas in music, tech, or design. I like working with teams where people take what they do seriously without taking themselves too seriously — where good work and good conversations happen side by side.</p>
+  </>
+
+
+
+
   return (
     <section id='about'>
       <div className='md:grid md:grid-cols-2 gap-8 items-start pb-8 px-4 xl:gap-8 sm:pb-16 xl:px-16'>
@@ -26,7 +36,8 @@ const About = () => {
           <h1 className='heading text-left mb-4'>
             About Me 📝<span className='text-purple-200'></span>
           </h1>
-          <p className='text-lg text-gray-300'><span className='border-b-2 border-accent'>Hello!</span> I&apos;m a software developer, currently studying Software Engineering at McMaster University. I have experience with full-stack and game development, and a passion for creating modern, responsive applications. I continuously strive to expand my skill set. I love to work in collaborative environments alongside like-minded individuals to bring meaningful and impactful projects to life. With a dedication to learning and problem-solving, I&apos;m always excited to explore new technologies and opportunities to create innovative, meaningful solutions.
+          <p className='text-lg text-gray-300'>
+            {about}
           </p>
           <button onClick={() => window.open('/resume.pdf')} className='mt-4 w-[5.6rem] py-1 bg-accent text-white rounded-2xl align-middle text-center text-md hover:bg-secondary'>
             Resume

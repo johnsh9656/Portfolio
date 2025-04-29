@@ -17,11 +17,11 @@ const Terminal: FC<TerminalProps> = ({ className }) => {
         <h2 className='text-white text-3xl font-semibold'>👋 README.md</h2>
         <div className='mt-4 leading-6 md:leading-7'>
           <p className={lineMargin}>👨‍🎓 Software Engineering @ McMaster University<br/></p>
+          <p className={lineMargin}>💼 Software Developer @ Jetson Infinity<br/></p>
+          <p className={lineMargin}>🤺 Varsity Sabre Fencer @ McMaster<br/></p>
           <p className={lineMargin}>💾 Web Developer @ McMaster GDSC<br/></p>
           <p className={lineMargin}>💽 Full-Stack Dev @ McMaster AI Society<br/></p>
-          <p className={lineMargin}>💼 Online Data Analyst @ TELUS Digital<br/></p>
-          <p className={lineMargin}>🌱 Currently practicing ML & Full-Stack Development<br/></p>
-          <p className={lineMargin}>✅ Searching for an internship starting May 2025!<br/></p>
+          <p className={lineMargin}>✅ Searching for a CO-OP starting Summer/Fall 2025!<br/></p>
           <br/>
         </div>
         <div>

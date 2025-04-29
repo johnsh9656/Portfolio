@@ -3,7 +3,7 @@ import {
   SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiVite, SiHtml5, SiCss3, SiJavascript, 
   SiFirebase, SiHostinger, SiNpm, SiUnity, SiCsharp, SiC, SiPython, SiLinux, SiGit, 
   SiMysql, SiGraphql, SiNodedotjs, SiPostcss, SiFramer, SiTensorflow, SiOpencv, SiFlask, 
-  SiNumpy, SiApachemaven, SiSanity, SiJira
+  SiNumpy, SiApachemaven, SiSanity, SiJira, SiAssemblyscript
 } from 'react-icons/si';
 import { FaJava } from "react-icons/fa6";
 
@@ -40,6 +40,7 @@ const Icon = ({ style, size = 40 }: { style: string; size?: number }) => {
     maven: { icon: <SiApachemaven />, color: '#C71A36' }, // Maven
     sanity: { icon: <SiSanity />, color: '#f75e4d' }, // Sanity
     jira: { icon: <SiJira />, color: '#416ff0' }, // Jira
+    assembly: { icon: <SiAssemblyscript />, color: '#00A3E0' }, // AssemblyScript
   };
 
   // Check if the icon exists in the map, otherwise return a default placeholder
