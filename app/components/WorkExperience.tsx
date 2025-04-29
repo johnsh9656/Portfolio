@@ -8,6 +8,17 @@ const WorkExperience = () => {
     </h1>
     <div className='flex flex-wrap justify-cente gap-x-4'>
       <WorkCard
+        title="Software Developer"
+        employer="Jetson Infinity"
+        description="Designed and developed a desktop app (Electron, Next.js, Flask) for Windows and MacOS that provides a responsive interface for controlling Jetson Inifinity's robotic arm products. Presented at various schools to introduce students to AI, ML, robotics, and the Jetson platform. Handled sales at Jetson booths (FIRST Robotics Canada)."
+        buttonText="Company Website"
+        imageUrl="/images/jetsonlogo.jpg"
+        link="https://www.jetsoninfinity.com/"
+        timeline="February 2025 - Ongoing"
+        extraLink='https://www.jetsoninfinity.com/'
+        extraLinkText='Visit →'
+      />
+      <WorkCard
         title="Web Developer, IT Support"
         employer="Black Rose Guitar House"
         description="Responsible for creating the new eCommerce website, managing web hosting, domain transfer, and transferring data from previous platform."
