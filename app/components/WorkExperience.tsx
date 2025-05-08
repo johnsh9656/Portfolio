@@ -12,7 +12,7 @@ const WorkExperience = () => {
         employer="Jetson Infinity"
         description="Designed and developed a desktop app (Electron, Next.js, Flask) for Windows and MacOS that provides a responsive interface for controlling Jetson Inifinity's robotic arm products. Presented at various schools to introduce students to AI, ML, robotics, and the Jetson platform. Handled sales at booths for events (FIRST Robotics Canada). Facilitated integrated events with high schools to promote STEM education."
         buttonText="Company Website"
-        imageUrl="/images/jetsonbanner.jpg"
+        imageUrl="//harrisonjohns.me/images/jetsonbanner.jpg"
         link="https://www.jetsoninfinity.com/"
         timeline="February 2025 - Ongoing"
         extraLink='https://www.jetsoninfinity.com/'
