@@ -10,9 +10,9 @@ const WorkExperience = () => {
       <WorkCard
         title="Software Developer"
         employer="Jetson Infinity"
-        description="Designed and developed a desktop app (Electron, Next.js, Flask) for Windows and MacOS that provides a responsive interface for controlling Jetson Inifinity's robotic arm products. Presented at various schools to introduce students to AI, ML, robotics, and the Jetson platform. Handled sales at Jetson booths (FIRST Robotics Canada)."
+        description="Designed and developed a desktop app (Electron, Next.js, Flask) for Windows and MacOS that provides a responsive interface for controlling Jetson Inifinity's robotic arm products. Presented at various schools to introduce students to AI, ML, robotics, and the Jetson platform. Handled sales at booths for events (FIRST Robotics Canada). Facilitated integrated events with high schools to promote STEM education."
         buttonText="Company Website"
-        imageUrl="/images/jetsonlogo.jpg"
+        imageUrl="/images/jetsonbanner.jpg"
         link="https://www.jetsoninfinity.com/"
         timeline="February 2025 - Ongoing"
         extraLink='https://www.jetsoninfinity.com/'
