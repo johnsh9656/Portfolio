@@ -15,11 +15,9 @@ const About = () => {
   }
 
   const about = <>
-    <p className='mb-2'><span className='border-b-2 border-accent'>Hello!</span>  I'm Harrison — a software developer and Software Engineering student at McMaster University. I like building things that are practical, clean, and actually useful. My background is mainly in full-stack development, but I've also worked on video game development and machine learning projects.</p>
-    <p className='mb-2'>I'm someone who learns by doing — whether that's picking up a new tech stack for a project, troubleshooting hardware and software, or refining the way a system fits together. I care about writing code that's not just functional but understandable, maintainable, and well-designed.</p>
-    <p/>
-    <p className='mb-2'>Outside of coding or designing, I'm always working on something — whether that's fencing, learning a new instrument, challenging my existing skills, or exploring new ideas in music, tech, etc.. I love working with people who are passionate about their work and set high standards while being willing to challenge their assumptions and skills.</p>
-    <p className=''>I’m currently looking for a co-op position starting in Summer/Fall 2025. If you think I’d be a good fit for your team, please reach out!</p>
+    <p className='mb-2'>I'm a software developer and third-year Software Engineering student at McMaster University. I started with game development and have since worked across full-stack web development, databases, machine learning, and robotics through academic, personal, and team-based projects.</p>
+    <p className='mb-2'>Outside of software, I spend my time fencing, reading, making music, and learning new languages (currently Spanish and Swedish), and I’m always looking for ways to push my skills further or pick up new ones.</p>
+    <p className=''>I’m currently looking for a 4-12+ month co-op position starting in Summer 2026.</p>
   </>
 
 

@@ -19,9 +19,9 @@ const Terminal: FC<TerminalProps> = ({ className }) => {
           <p className={lineMargin}>👨‍🎓 Software Engineering @ McMaster University<br/></p>
           <p className={lineMargin}>💼 Software Developer @ Jetson Infinity<br/></p>
           <p className={lineMargin}>🤺 Varsity Sabre Fencer @ McMaster<br/></p>
-          <p className={lineMargin}>💾 Web Developer @ McMaster GDSC<br/></p>
-          <p className={lineMargin}>💽 Full-Stack Dev @ McMaster AI Society<br/></p>
-          <p className={lineMargin}>✅ Searching for a CO-OP starting Summer/Fall 2025!<br/></p>
+          <p className={lineMargin}>💾 Open Source Lead @ McMaster GDSC<br/></p>
+          <p className={lineMargin}>🎸 Playing guitar, drums, and piano<br/></p>
+          <p className={lineMargin}>✅ Searching for a CO-OP starting Summer/Fall 2026!<br/></p>
           <br/>
         </div>
         <div>

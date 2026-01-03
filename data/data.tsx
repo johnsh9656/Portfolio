@@ -8,6 +8,69 @@ export const projectTags = [
 
 export const projectsData = [
   {
+    id: 17,
+    title: 'spotify2media',
+    description: `Global CLI that converts Spotify tracks, albums, and playlists into locally downloaded, tagged audio files.`,
+    image: "//harrisonjohns.me/images/spotify2media.png",
+    date: "December 2025",
+    tags: ["Back-End", "Automation"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/johnsh9656/spotify2mp3', color: 'thunder'},
+    ],
+    techStack: ['python'],
+    content: () => {
+      return (
+        <p>
+          🎵 spotify2media is a Python-based command-line tool for downloading and organizing music from Spotify links by converting tracks, albums, and playlists into locally stored media files.<br/>
+          ⚙️ The tool parses Spotify metadata, resolves corresponding audio sources, and automatically structures output files with correct naming, metadata, and embedded album artwork.<br/>
+          🧩 Designed as a modular CLI application with clear separation between Spotify API handling, media processing, and file I/O, making it easy to extend and maintain.<br/>
+        </p>
+      );
+    },
+  },
+  {
+    id: 16,
+    title: '📍 Corkboard',
+    description: `Open-source, mobile-first local music discovery app for Hamilton with map + feed-based event browsing.`,
+    image: "//harrisonjohns.me/images/corkboard.png",
+    date: "Septebmer 2025 - Ongoing",
+    tags: ["Web Dev", "Front-End", "Back-End", "Teams"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/DSC-McMaster-U/corkboard-open-source', color: 'thunder'},
+    ],
+    techStack: ['react', 'typescript', 'tailwind', 'supabase', 'python', 'flask'],
+    content: () => {
+      return (
+        <p>
+          🎧 Corkboard is an open-source, mobile-first app for discovering local live music in Hamilton, built to help students and newcomers find upcoming shows.<br/><br/>
+          🗺️ The app features map-based and timeline-based views with detailed event pages and filtering by date and venue.<br/><br/>
+          💻 I led a 10-person team as Project Lead and Scrum Master, coordinating frontend, backend, and data ingestion work.<br/><br/>
+          🗄️ Built with React Native and TypeScript on the frontend, with a Supabase-backed database and a Python Flask backend powering APIs and web-scraping pipelines.
+        </p>
+      );
+    },
+  },
+  {
+    id: 15,
+    title: 'ACME Connect! Requirements Doc',
+    description: `A full requirements document for the ACME Connnect! app (SFWRENG 3RA3).`,
+    image: "//harrisonjohns.me/images/acmeconnect.png",
+    date: "September 2025 - December 2025",
+    tags: ["Teams", "Course Work"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/3RA3-F25/acme-connect-team-4', color: 'thunder'},
+    ],
+    techStack: ['git'],
+    content: () => {
+      return (
+        <p>
+          📝 A full softare engineering requirements document for the ACME Connect! app.<br/>
+          💻 Written as the final project for SFWRENG 3RA3: Software Requirements and Security Considerations.<br/>
+        </p>
+      );
+    },
+  },
+  {
     id: 14,
     title: '🫠 Employ Me!',
     description: `Full-stack web app to help students and employers navigate the job market, made for UOttaHack 7 (2025).`,
@@ -406,21 +469,21 @@ export const TAB_DATA = [
       </div>
     )
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <div className="flex flex-col">
-        <Link href="https://www.linkedin.com/learning/certificates/197e258621c7e28d24ffb322384502f41e601ae632011ca7f1ebc2f3b21f7dcf?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B%2FJ%2FsgxGbRK%2B%2BYnBlhRcHJQ%3D%3D">
-          SharePoint Online Essential Training
-        </Link>
-        <Link href="https://www.linkedin.com/learning/certificates/91738c2cafdf3f422d386daaf6bc5626ab7a8a42cec586373adae87a1e82a7a4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B%2FJ%2FsgxGbRK%2B%2BYnBlhRcHJQ%3D%3D">
-          Learning Arduino: Foundations
-        </Link>
-        <Link href="https://www.linkedin.com/learning/certificates/d0b7c6ec73aede46c6b48cc59846ac331a7c2d1aaf6ce28d83ed60ba725db35d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B%2FJ%2FsgxGbRK%2B%2BYnBlhRcHJQ%3D%3D">
-          Learning SQL Programming
-        </Link>
-    </div>
-    )
-  },
+  // {
+  //   title: "Certifications",
+  //   id: "certifications",
+  //   content: (
+  //     <div className="flex flex-col">
+  //       <Link href="https://www.linkedin.com/learning/certificates/197e258621c7e28d24ffb322384502f41e601ae632011ca7f1ebc2f3b21f7dcf?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B%2FJ%2FsgxGbRK%2B%2BYnBlhRcHJQ%3D%3D">
+  //         SharePoint Online Essential Training
+  //       </Link>
+  //       <Link href="https://www.linkedin.com/learning/certificates/91738c2cafdf3f422d386daaf6bc5626ab7a8a42cec586373adae87a1e82a7a4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B%2FJ%2FsgxGbRK%2B%2BYnBlhRcHJQ%3D%3D">
+  //         Learning Arduino: Foundations
+  //       </Link>
+  //       <Link href="https://www.linkedin.com/learning/certificates/d0b7c6ec73aede46c6b48cc59846ac331a7c2d1aaf6ce28d83ed60ba725db35d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B%2FJ%2FsgxGbRK%2B%2BYnBlhRcHJQ%3D%3D">
+  //         Learning SQL Programming
+  //       </Link>
+  //   </div>
+  //   )
+  // },
 ];
