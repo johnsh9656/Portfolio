@@ -12,8 +12,8 @@ const WorkExperience = () => {
         title="Software Developer"
         employer="Jetson Infinity"
         description={[
-          "Led the development of the company’s new eCommerce website, managing the full migration from the previous platform. This included frontend implementation, content transfer, domain migration, and web hosting setup to ensure a smooth launch with minimal downtime.",
-          "Provided ongoing IT support by maintaining hosting infrastructure, troubleshooting technical issues, and managing online payments and shipping workflows. Improved site reliability and usability while modernizing the company’s online presence to better support day-to-day business operations."
+          "Designed and developed a cross-platform desktop application using Electron, Next.js, and Flask to control Jetson Infinity’s robotic arm products on Windows and macOS. The app provides a responsive interface for configuring, sequencing, and executing robotic movements, and serves as a primary interaction layer for students and educators using the platform.",
+          "Supported outreach and deployment by presenting at schools, science centres, and conferences across Canada. Assisted with live demos, sales booths, and facilitated hands-on workshops introducing students to robotics, AI, and machine learning concepts through real hardware interaction."
         ]}
         buttonText="Company Website"
         imageUrl="//harrisonjohns.me/images/jetson.png"
