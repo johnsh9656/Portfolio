@@ -35,7 +35,7 @@ const About = () => {
           <h1 className='heading text-left mb-4'>
             About Me 📝<span className='text-purple-200'></span>
           </h1>
-          <h2 className='text-lg text-gray-300'>
+          <h2 className=' text-gray-300'>
             {about}
           </h2>
           <button onClick={() => window.open('/resume.pdf')} className='mt-4 w-[5.6rem] py-1 bg-accent text-white rounded-2xl align-middle text-center text-md hover:bg-secondary'>
