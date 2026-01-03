@@ -403,7 +403,7 @@ export const projectsData = [
 ]
 
 export const techStack = [
-  'html', 'css', 'javascript', 'typescript', 'react', 'next', 'tailwind', 'npm', 'vite', 'graphql', 'firebase', 'csharp', 'unity', 'java', 'maven', 'python', 'mysql', 'linux', 'git', 'nodejs', 'postcss', 'framer', 'c', 'tensorflow', 'numpy', 'opencv', 'flask', 'assembly'
+  'html', 'css', 'javascript', 'typescript', 'react', 'next', 'tailwind', 'npm', 'vite', 'graphql', 'firebase', 'csharp', 'unity', 'java', 'maven', 'python', 'mysql', 'linux', 'git', 'nodejs', 'postcss', 'framer', 'sanity', 'jira', 'hostinger', 'c', 'tensorflow', 'numpy', 'opencv', 'pillow', 'flask', 'assembly', 'supabase', 'mongo', 'expressjs', 'openai'
 ]
 
 export const TAB_DATA = [
