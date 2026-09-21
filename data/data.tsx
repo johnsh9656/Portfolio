@@ -7,11 +7,34 @@ export const projectTags = [
 ]
 
 export const projectsData = [
+  
   {
     id: 17,
+    title: '📍 Corkboard',
+    description: `Open-source, mobile-first local music discovery app for Hamilton with map + feed-based event browsing.`,
+    image: "/images/corkboard.png",
+    date: "Septebmer 2025 - May 2026",
+    tags: ["Web Dev", "Front-End", "Back-End", "Teams"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/DSC-McMaster-U/corkboard-open-source', color: 'thunder'},
+    ],
+    techStack: ['react', 'typescript', 'tailwind', 'supabase', 'python', 'expressjs', 'npm'],
+    content: () => {
+      return (
+        <p>
+          🎧 Corkboard is an open-source, mobile-first app for discovering local live music in Hamilton, built to help students and newcomers find upcoming shows.<br/><br/>
+          🗺️ The app features map-based and timeline-based views with detailed event pages and filtering by date and venue.<br/><br/>
+          💻Led 10-person cross-functional open-source team as Project Lead and Scrum Master, coordinating sprint planning, development, testing, code reviews and delivery of an open-source mobile app for local music event discovery..<br/><br/>
+          🗄️ Built with React Native and TypeScript on the frontend, with a Supabase-backed database and Express.js backend powering APIs and web-scraping pipelines.
+        </p>
+      );
+    },
+  },
+  {
+    id: 16,
     title: 'spotify2media',
     description: `Global CLI that converts Spotify tracks, albums, and playlists into locally downloaded, tagged audio files.`,
-    image: "//harrisonjohns.me/images/spotify2media.png",
+    image: "/images/spotify2media.png",
     date: "December 2025",
     tags: ["Back-End", "Automation"],
     links: [
@@ -29,32 +52,10 @@ export const projectsData = [
     },
   },
   {
-    id: 16,
-    title: '📍 Corkboard',
-    description: `Open-source, mobile-first local music discovery app for Hamilton with map + feed-based event browsing.`,
-    image: "//harrisonjohns.me/images/corkboard.png",
-    date: "Septebmer 2025 - Ongoing",
-    tags: ["Web Dev", "Front-End", "Back-End", "Teams"],
-    links: [
-      {title: 'GitHub', url: 'https://github.com/DSC-McMaster-U/corkboard-open-source', color: 'thunder'},
-    ],
-    techStack: ['react', 'typescript', 'tailwind', 'supabase', 'python', 'flask'],
-    content: () => {
-      return (
-        <p>
-          🎧 Corkboard is an open-source, mobile-first app for discovering local live music in Hamilton, built to help students and newcomers find upcoming shows.<br/><br/>
-          🗺️ The app features map-based and timeline-based views with detailed event pages and filtering by date and venue.<br/><br/>
-          💻 I led a 10-person team as Project Lead and Scrum Master, coordinating frontend, backend, and data ingestion work.<br/><br/>
-          🗄️ Built with React Native and TypeScript on the frontend, with a Supabase-backed database and a Python Flask backend powering APIs and web-scraping pipelines.
-        </p>
-      );
-    },
-  },
-  {
     id: 15,
     title: 'ACME Connect! Requirements Doc',
     description: `A full requirements document for the ACME Connnect! app (SFWRENG 3RA3).`,
-    image: "//harrisonjohns.me/images/acmeconnect.png",
+    image: "/images/acmeconnect.png",
     date: "September 2025 - December 2025",
     tags: ["Teams", "Course Work"],
     links: [
@@ -74,7 +75,7 @@ export const projectsData = [
     id: 14,
     title: '🫠 Employ Me!',
     description: `Full-stack web app to help students and employers navigate the job market, made for UOttaHack 7 (2025).`,
-    image: "//harrisonjohns.me/images/employme.png",
+    image: "/images/employme.png",
     date: "January 2025",
     tags: ["Machine Learning", "Web Dev", "Front-End", "Back-End", "Teams", "Hackathon"],
     links: [
@@ -97,7 +98,7 @@ export const projectsData = [
     id: 13,
     title: 'Art Suggester AI',
     description: `Full-stack web app to suggest artwork based on art supplies, made with the McMaster AI Society.`,
-    image: "//harrisonjohns.me/images/artsuggester.png",
+    image: "/images/artsuggester.png",
     date: "October 2024 - February 2025",
     tags: ["Machine Learning", "Web Dev", "Front-End", "Back-End", "Teams"],
     links: [
@@ -118,7 +119,7 @@ export const projectsData = [
     id: 12,
     title: 'AI Clothing Classifier',
     description: `Full-stack web app with a custom TensorFlow CNN to classify user-uploaded images of clothes.`,
-    image: "//harrisonjohns.me/images/clothingclassifier.png",
+    image: "/images/clothingclassifier.png",
     date: "January 2025",
     tags: ["Machine Learning", "Web Dev", "Front-End", "Back-End"],
     links: [
@@ -142,7 +143,7 @@ export const projectsData = [
     id: 11,
     title: 'GDSC McMaster Website',
     description: `Official website for GDSC's McMaster chapter (not yet live).`,
-    image: "//harrisonjohns.me/images/gdscwebsite.png",
+    image: "/images/gdscwebsite.png",
     date: "October 2024 - January 2025",
     tags: ["Web Dev", "Front-End", "Teams"],
     links: [
@@ -161,7 +162,7 @@ export const projectsData = [
     id: 10,
     title: 'GDSC Mac-a-Thon Website',
     description: `Official website for the McMaster GDSC's 2025 hackathon, the Mac-a-Thon.`,
-    image: "//harrisonjohns.me/images/macathon.png",
+    image: "/images/macathon.png",
     date: "December 2024 - January 2025",
     tags: ["Web Dev", "Front-End", "Teams"],
     links: [
@@ -181,7 +182,7 @@ export const projectsData = [
     id: 9,
     title: 'Blackjack in C',
     description: `Blackjack recreated with C for a linux environment, with a GUI (team project).`,
-    image: "//harrisonjohns.me/images/blackjack.png",
+    image: "/images/blackjack.png",
     date: "December 2024",
     tags: ["Course Work", "Game Dev"],
     links: [
@@ -202,7 +203,7 @@ export const projectsData = [
     id: 8,
     title: 'Autonomous Tic-Tac-Toe',
     description: `2, 1, or 0 player Tic-Tac-Toe made with Java and Maven with OOP design principles.`,
-    image: "//harrisonjohns.me/images/tictactoe.png",
+    image: "/images/tictactoe.png",
     date: "November 2024",
     tags: ["Course Work", "Automation", "Game Dev"],
     links: [
@@ -223,7 +224,7 @@ export const projectsData = [
     id: 7,
     title: 'Next.js Portfolio Website',
     description: `A modern, responsive Next.js and Tailwind portfolio hosted on Hostinger.`,
-    image: "//harrisonjohns.me/images/porthead.png",
+    image: "/images/porthead.png",
     date: "September 2024",
     tags: ["Web Dev", "Front-End"],
     links: [
@@ -244,7 +245,7 @@ export const projectsData = [
     title: '30 Days of Web Dev',
     description: `30-day web dev challenge, going from basic HTML basics to a full-stack Duolingo clone.`,
     date: "July - August,  2024",
-    image: "//harrisonjohns.me/images/thirtydays.png",
+    image: "/images/thirtydays.png",
     tags: ["Web Dev", "Front-End", "Back-End"],
     techStack: ['html', 'css', 'javascript', 'react', 'vite', 'tailwind', 'typescript', 'npm', 'nodejs'],
     links: [
@@ -264,7 +265,7 @@ export const projectsData = [
     title: 'Traitor Online',
     description: `Multiplayer game made using Unity's Netcode for GameObjects, inspired by Werewolf.`,
     date: 'Sometime in 2024...',
-    image: "//harrisonjohns.me/images/traitor.jpg",
+    image: "/images/traitor.jpg",
     tags: ["Game Dev"],
     techStack: ['unity', 'csharp'],
     links: [
@@ -286,7 +287,7 @@ export const projectsData = [
     title: 'Well Reminder',
     description: `Website and Chrome Extension for the GDSC Solutions Challenge 2024.`,
     date: 'January 2024',
-    image: "//harrisonjohns.me/images/wellreminder.jpg",
+    image: "/images/wellreminder.jpg",
     tags: ["Hackathon", "Web Dev", "Front-End"],
     techStack: ['html', 'css', 'javascript'],
     links: [
@@ -306,7 +307,7 @@ export const projectsData = [
     title: 'Engineering Design Projects',
     description: `4 Engineering Design Projects for the 1P13 course, with a live portfolio.`,
     date: 'September 2023 - April 2024',
-    image: "//harrisonjohns.me/images/1p13.png",
+    image: "/images/1p13.png",
     tags: ["Automation", "Course Work"],
     techStack: ['python'],
     links: [
@@ -338,7 +339,7 @@ export const projectsData = [
     title: 'Another VR Dungeon Game',
     description: `VR dungeon crawler made with Unity's XR integration.`,
     date: 'August, 2023',
-    image: "//harrisonjohns.me/images/vrdungeon.png",
+    image: "/images/vrdungeon.png",
     tags: ["Game Dev"],
     techStack: ['unity', 'csharp'],
     links: [
@@ -360,7 +361,7 @@ export const projectsData = [
     title: 'Untitled Racing Game',
     description: `A single-player 3D aracade racing game made with the Unity 3D Engine.`,
     date: '2022',
-    image: "//harrisonjohns.me/images/racinggame.png",
+    image: "/images/racinggame.png",
     tags: ["Game Dev"],
     techStack: ['unity', 'csharp'],
     links: [
@@ -383,7 +384,7 @@ export const projectsData = [
     title: 'Laser Defender',
     description: `A Galaga-inspired infinite wave shooter made using the Unity 2D Engine.`,
     date: 'December 2019',
-    image: "//harrisonjohns.me/images/laserdefender.png",
+    image: "/images/laserdefender.png",
     tags: ["Game Dev"],
     techStack: ['unity', 'csharp'],
     links: [
@@ -418,57 +419,57 @@ export const TAB_DATA = [
       </div>
     )
   },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <div className="text-gray-400">
-        <div>
-          <h3 className="text-lg font-semibold mt-0"><span className="text-md font-normal text-gray-300">Software Engineering, Bachelor of Engineering</span></h3>
-          <span className="font-gray-500 font-semibold text-md">McMaster University</span>
-          <p>2023-2027</p>
-          <p>GPA: 11.7/12, 3.91/4</p>
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold mt-4"><span className="text-md font-normal text-gray-300">IB Diploma</span></h3>
-          <span className="font-gray-500 font-semibold text-md">Guelph Collegiate Vocational Institute</span>
-          <p>2019-2023</p>
-          <p>Grade: IB 39, top 9.24% globally</p>
-        </div>
-      </div>
+  // {
+  //   title: "Education",
+  //   id: "education",
+  //   content: (
+  //     <div className="text-gray-400">
+  //       <div>
+  //         <h3 className="text-lg font-semibold mt-0"><span className="text-md font-normal text-gray-300">Software Engineering, Bachelor of Engineering</span></h3>
+  //         <span className="font-gray-500 font-semibold text-md">McMaster University</span>
+  //         <p>2023-2027</p>
+  //         <p>GPA: 11.7/12, 3.91/4</p>
+  //       </div>
+  //       <div>
+  //         <h3 className="text-lg font-semibold mt-4"><span className="text-md font-normal text-gray-300">IB Diploma</span></h3>
+  //         <span className="font-gray-500 font-semibold text-md">Guelph Collegiate Vocational Institute</span>
+  //         <p>2019-2023</p>
+  //         <p>Grade: IB 39, top 9.24% globally</p>
+  //       </div>
+  //     </div>
 
       
-    )
-  },
-  {
-    title: "Awards",
-    id: "awards",
-    content: (
-      <div className="text-gray-400">
-        <div className="mb-2">
-          <span className="text-gray-200 font-semibold text-base">MacChangers, 2023-24</span>
-          <ul className="list-disc text-gray-300">
-            <li>- Design Thinker Award</li>
-            <li>- Principled Thinker Award</li>
-            <li>- Team Player Award</li>
-            <li>- Most Creative Solution</li>
-            <li>- Most Inclusive Deliverable</li>
-          </ul>
-        </div>
-        <div className="mb-2">
-          <span className="text-gray-200 font-semibold text-base">Faculty of Eng. Award of Excellence, 2023</span>
-        </div>
-        <div className="mb-2">
-          <span className="text-gray-200 font-semibold text-base">Teacher's Award, 2023</span>
-          <p>Guelph Collegiate Vocational Institute</p>
-        </div>
-        <div className="mb-2">
-          <span className="text-gray-200 font-semibold text-base">Music Leadership Award, 2023</span>
-          <p>Ontario Band Association</p>
-        </div>
-      </div>
-    )
-  },
+  //   )
+  // },
+  // {
+  //   title: "Awards",
+  //   id: "awards",
+  //   content: (
+  //     <div className="text-gray-400">
+  //       <div className="mb-2">
+  //         <span className="text-gray-200 font-semibold text-base">MacChangers, 2023-24</span>
+  //         <ul className="list-disc text-gray-300">
+  //           <li>- Design Thinker Award</li>
+  //           <li>- Principled Thinker Award</li>
+  //           <li>- Team Player Award</li>
+  //           <li>- Most Creative Solution</li>
+  //           <li>- Most Inclusive Deliverable</li>
+  //         </ul>
+  //       </div>
+  //       <div className="mb-2">
+  //         <span className="text-gray-200 font-semibold text-base">Faculty of Eng. Award of Excellence, 2023</span>
+  //       </div>
+  //       <div className="mb-2">
+  //         <span className="text-gray-200 font-semibold text-base">Teacher's Award, 2023</span>
+  //         <p>Guelph Collegiate Vocational Institute</p>
+  //       </div>
+  //       <div className="mb-2">
+  //         <span className="text-gray-200 font-semibold text-base">Music Leadership Award, 2023</span>
+  //         <p>Ontario Band Association</p>
+  //       </div>
+  //     </div>
+  //   )
+  // },
   // {
   //   title: "Certifications",
   //   id: "certifications",

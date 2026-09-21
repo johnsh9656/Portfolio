@@ -9,18 +9,34 @@ const WorkExperience = () => {
     </h1>
     <div className='flex flex-col justify-center gap-2'>
       <WorkRow
+        title="Cybersecurity Intern"
+        employer="FloSports"
+        description={[
+          "Designed and implemented an AI governance framework, including acceptable use policies, a risk-assessment framework, and detection and enforcement mechanisms to control AI usage and mitigate data leakage risks.",
+          "Developed a Python-based shadow AI discovery tool that aggregates data from Okta, Google Workspace, and Cisco Meraki APIs, producing risk-classified reports, integrated directly into the internal TechOps dashboard.",
+          "Supported cybersecurity and IT operations across a modern cloud/SaaS stack (AWS, Okta, GWS, Mosyle, Meraki, DattoEDR)",
+          "Participated in incident response activities, investigating and resolving security incidents in a timely manner.",
+        ]}
+        buttonText="FloSports.tv dashboard"
+        imageUrl="/images/flosports.png"
+        link="https://www.flosports.tv/"
+        timeline="July 2026 - Ongoing"
+        extraLink=''
+        extraLinkText=''
+      />
+      <WorkRow
         title="Software Developer"
         employer="Jetson Infinity"
         description={[
           "Designed and developed a cross-platform desktop application using Electron, Next.js, and Flask to control Jetson Infinity’s robotic arm products on Windows and macOS. The app provides a responsive interface for configuring, sequencing, and executing robotic movements, and serves as a primary interaction layer for students and educators using the platform.",
           "Supported outreach and deployment by presenting at schools, science centres, and conferences across Canada. Assisted with live demos, sales booths, and facilitated hands-on workshops introducing students to robotics, AI, and machine learning concepts through real hardware interaction."
         ]}
-        buttonText="Company Website"
-        imageUrl="//harrisonjohns.me/images/jetson.png"
+        buttonText="Jetson Infinity Website"
+        imageUrl="/images/jetson.png"
         link="https://www.jetsoninfinity.com/"
         timeline="February 2025 - Ongoing"
-        extraLink='https://www.jetsoninfinity.com/'
-        extraLinkText='Visit →'
+        extraLink=''
+        extraLinkText=''
       />
       <WorkRow
         title="Web Developer, IT Support"
@@ -29,12 +45,12 @@ const WorkExperience = () => {
           "Led the development of the company’s new eCommerce website, managing the full migration from the previous platform. This included frontend implementation, content transfer, domain migration, and web hosting setup to ensure a smooth launch with minimal downtime.",
           "Provided ongoing IT support by maintaining hosting infrastructure, troubleshooting technical issues, and managing online payments and shipping workflows. Improved site reliability and usability while modernizing the company’s online presence to better support day-to-day business operations."
         ]}
-        buttonText="Visit Site"
-        imageUrl="//harrisonjohns.me/images/blackrose.png"
+        buttonText="Visit the Site"
+        imageUrl="/images/blackrose.png"
         link="https://blackroseguitarhouse.com"
         timeline="July - August 2024"
-        extraLink='https://blackroseguitarhouse.com'
-        extraLinkText='View now →'
+        extraLink=''
+        extraLinkText=''
       />
       <WorkRow
         title="Online Data Analyst"
@@ -43,9 +59,9 @@ const WorkExperience = () => {
           "Evaluated the relevance, accuracy, and quality of digital content used to train and assess AI and machine learning systems. This included reviewing AI-generated voices, search engine results, and generative AI responses to user queries.",
           "Applied consistent evaluation standards and SEO best practices to help improve model performance, ranking accuracy, and overall training data quality in large-scale data annotation workflows."
         ]}
-        buttonText="View Job Description"
-        imageUrl="//harrisonjohns.me/images/telus.jpg"
-        link="https://www.telusinternational.com/"
+        buttonText="TELUS International Website"
+        imageUrl="/images/telus.jpg"
+        link="https://www.telusdigital.com/"
         timeline="April - December 2024"
         extraLink=''
         extraLinkText=''
