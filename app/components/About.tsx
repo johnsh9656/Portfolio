@@ -27,7 +27,7 @@ const About = () => {
     <section id='about'>
       <div className='md:grid md:grid-cols-2 gap-8 items-start pb-8 px-4 xl:gap-8 sm:pb-16 xl:px-16'>
         <div className='overflow-hidden flex flex-col justify-center items-center'>
-          <Image src="/images/me.JPG" alt='About Image' width={500} height={500} className='w-full h-auto xl:w-[24rem] rounded-3xl border-4 border-cinder shadow-xl mt-20'/>
+          <Image src="/images/me.JPG" alt='About Image' width={500} height={500} className='w-full h-auto xl:w-[24rem] rounded-3xl border-2 border-cinder shadow-2xl mt-20'/>
           {/* <p className='text-gray-400 ml-4 mt-2 text-sm'>~Placeholder image, to be updated soon</p> */}
         </div>
         
