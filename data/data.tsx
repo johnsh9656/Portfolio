@@ -54,7 +54,7 @@ export const projectsData = [
   {
     id: 17,
     title: 'SCEMAS',
-    description: `Smart City Environmental Monitoring and Alert System (SFWRENG 3BB4; Large System Design).`,
+    description: `Smart City Environmental Monitoring and Alert System (SFWRENG 3A04; Large System Design).`,
     image: "/images/scemas.png",
     date: "January 2026 - March 2026",
     tags: ["Teams", "Course Work", "Back-End", "Front-End", "Automation", "Full-Stack"],
@@ -65,8 +65,10 @@ export const projectsData = [
     content: () => {
       return (
         <p>
-          📝 A full softare engineering requirements document for the ACME Connect! app.<br/>
-          💻 Written as the final project for SFWRENG 3RA3: Software Requirements and Security Considerations.<br/>
+          🌳 Simulated environmental monitoring and alert system that actively digests telemetry data from a distributed sensor network across a city, raising alerts and allowing authorized operators and ML models to track analytics and respond to predictions/alerts.<br/>
+          👥 System has REST API for public use and authroized routes, with authorization-checking through private keys.<br/>
+          📝 Full software engineering requirements documents for the SCEMAS app.<br/>
+          💻 Built with React, Flask
         </p>
       );
     },
@@ -269,7 +271,7 @@ export const projectsData = [
     date: "September 2024",
     tags: ["Web Dev", "Front-End"],
     links: [
-      {title: 'Live Site', url: 'https://www.harrisonjohns.me', color: 'accent'},
+      {title: 'Live Site', url: 'https://www.harrisonjohns.ca', color: 'accent'},
       {title: 'GitHub', url: 'https://github.com/johnsh9656', color: 'thunder'},
     ],
     techStack: ['react', 'typescript', 'next', 'tailwind', 'vite', 'hostinger', 'npm', 'nodejs', 'framer'],
@@ -435,7 +437,7 @@ export const projectsData = [
     content: () => {
       return (
         <p>
-          ☄️ Laser Defender was the first complete game that I developed, and is one that I am most proud of! Developing this game played a role in inspiring me to continue game and software development.
+          ☄️ Laser Defender was the first complete game that I developed, and is one that I am very proud of! Developing this game played a role in inspiring me to continue game and software development.
           <br/>
           🛸 The endless, increasingly difficult gameplay loop kept my friends competing for the highest score, with individual attempts lasting hours!
         </p>
