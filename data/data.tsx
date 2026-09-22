@@ -7,14 +7,35 @@ export const projectTags = [
 ]
 
 export const projectsData = [
-  
   {
-    id: 17,
+    id: 19,
+    title: '🎵 SignalLooper',
+    description: `SignalLooper is a desktop looper and pedalboard workstation for musicians, producers, and hobbyists.`,
+    image: "/images/signallooper.jpg",
+    date: "Septebmer 2026 - Ongoing",
+    tags: ["Web Dev", "Front-End", "Back-End", "Full-Stack", "Teams"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/DSC-McMaster-U/signal-looper', color: 'thunder'},
+    ],
+    techStack: ['react', 'rust', 'tuari'],
+    content: () => {
+      return (
+        <p>
+          🎧 SignalLooper is a desktop looper and pedalboard workstation for musicians, producers, and hobbyists.<br/><br/>
+          🎛️ The app features a modern interface for creating and editing audio loops, as well as a variety of effects and plugins to enhance the sound.<br/><br/>
+          💻 Led 10-person cross-functional open-source team as Project Lead and Scrum Master, coordinating sprint planning, development, testing, code reviews and delivery of an open-source desktop app for audio loop creation.<br/><br/>
+          🗄️ Built with React and Rust, using Tauri framework for the desktop application.
+        </p>
+      );
+    },
+  },
+  {
+    id: 18,
     title: '📍 Corkboard',
     description: `Open-source, mobile-first local music discovery app for Hamilton with map + feed-based event browsing.`,
     image: "/images/corkboard.png",
     date: "Septebmer 2025 - May 2026",
-    tags: ["Web Dev", "Front-End", "Back-End", "Teams"],
+    tags: ["Web Dev", "Front-End", "Back-End", "Full-Stack","Teams"],
     links: [
       {title: 'GitHub', url: 'https://github.com/DSC-McMaster-U/corkboard-open-source', color: 'thunder'},
     ],
@@ -24,8 +45,28 @@ export const projectsData = [
         <p>
           🎧 Corkboard is an open-source, mobile-first app for discovering local live music in Hamilton, built to help students and newcomers find upcoming shows.<br/><br/>
           🗺️ The app features map-based and timeline-based views with detailed event pages and filtering by date and venue.<br/><br/>
-          💻Led 10-person cross-functional open-source team as Project Lead and Scrum Master, coordinating sprint planning, development, testing, code reviews and delivery of an open-source mobile app for local music event discovery..<br/><br/>
+          💻 Led 10-person cross-functional open-source team as Project Lead and Scrum Master, coordinating sprint planning, development, testing, code reviews and delivery of an open-source mobile app for local music event discovery..<br/><br/>
           🗄️ Built with React Native and TypeScript on the frontend, with a Supabase-backed database and Express.js backend powering APIs and web-scraping pipelines.
+        </p>
+      );
+    },
+  },
+  {
+    id: 17,
+    title: 'SCEMAS',
+    description: `Smart City Environmental Monitoring and Alert System (SFWRENG 3BB4; Large System Design).`,
+    image: "/images/scemas.png",
+    date: "January 2026 - March 2026",
+    tags: ["Teams", "Course Work", "Back-End", "Front-End", "Automation", "Full-Stack"],
+    links: [
+      {title: 'GitHub', url: 'https://github.com/johnsh9656/3A04/', color: 'thunder'},
+    ],
+    techStack: ['git', 'react', 'flask'],
+    content: () => {
+      return (
+        <p>
+          📝 A full softare engineering requirements document for the ACME Connect! app.<br/>
+          💻 Written as the final project for SFWRENG 3RA3: Software Requirements and Security Considerations.<br/>
         </p>
       );
     },
@@ -404,7 +445,7 @@ export const projectsData = [
 ]
 
 export const techStack = [
-  'html', 'css', 'javascript', 'typescript', 'react', 'next', 'tailwind', 'npm', 'vite', 'graphql', 'firebase', 'csharp', 'unity', 'java', 'maven', 'python', 'mysql', 'linux', 'git', 'nodejs', 'postcss', 'framer', 'sanity', 'jira', 'hostinger', 'c', 'tensorflow', 'numpy', 'opencv', 'pillow', 'flask', 'assembly', 'supabase', 'mongo', 'expressjs', 'openai'
+  'html', 'css', 'javascript', 'typescript', 'react', 'next', 'tailwind', 'npm', 'vite', 'graphql', 'firebase', 'csharp', 'unity', 'java', 'maven', 'python', 'mysql', 'linux', 'git', 'nodejs', 'postcss', 'framer', 'sanity', 'jira', 'hostinger', 'c', 'tensorflow', 'numpy', 'opencv', 'pillow', 'flask', 'assembly', 'supabase', 'mongo', 'expressjs', 'openai', 'rust', 'tauri', 'aws', 'okta', 'meraki', 'datto'
 ]
 
 export const TAB_DATA = [

@@ -34,7 +34,7 @@ const WorkExperience = () => {
         buttonText="Jetson Infinity Website"
         imageUrl="/images/jetson.png"
         link="https://www.jetsoninfinity.com/"
-        timeline="February 2025 - Ongoing"
+        timeline="February 2025 - July 2026"
         extraLink=''
         extraLinkText=''
       />

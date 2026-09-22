@@ -3,7 +3,7 @@ import {
   SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiVite, SiHtml5, SiCss3, SiJavascript, 
   SiFirebase, SiHostinger, SiNpm, SiUnity, SiCsharp, SiC, SiPython, SiLinux, SiGit, 
   SiMysql, SiGraphql, SiNodedotjs, SiPostcss, SiFramer, SiTensorflow, SiOpencv, SiFlask, 
-  SiNumpy, SiApachemaven, SiSanity, SiJira, SiAssemblyscript, SiSupabase, SiMongodb, SiExpress, SiOpenai
+  SiNumpy, SiApachemaven, SiSanity, SiJira, SiAssemblyscript, SiSupabase, SiMongodb, SiExpress, SiOpenai, SiRust, SiTauri, SiAmazon, SiOkta, SiCisco, SiDatto
 } from 'react-icons/si';
 import { FaJava } from "react-icons/fa6";
 
@@ -45,7 +45,12 @@ const Icon = ({ style, size = 40 }: { style: string; size?: number }) => {
     mongo: { icon: <SiMongodb />, color: '#47A248' }, // MongoDB
     expressjs: { icon: <SiExpress />, color: '#000000' }, // Express.js
     openai: { icon: <SiOpenai />, color: '#000000' }, // OpenAI
-
+    rust: { icon: <SiRust />, color: '#000000' }, // Rust
+    tauri: { icon: <SiTauri />, color: '#000000' }, // Tauri
+    aws: { icon: <SiAmazon />, color: '#FF9900' }, // AWS
+    okta: { icon: <SiOkta />, color: '#007DC1' }, // Okta
+    meraki: { icon: <SiCisco />, color: '#1BA0E2' }, // Cisco Meraki
+    datto: { icon: <SiDatto />, color: '#000000' }, // Datto
   };
 
   // Check if the icon exists in the map, otherwise return a default placeholder

@@ -15,9 +15,9 @@ const About = () => {
   }
 
   const about = <>
-    <p className='mb-2'>I'm a software developer and third-year Software Engineering student at McMaster University. I started with game development and have since worked across full-stack web development, databases, machine learning, and robotics through academic, personal, and team-based projects.</p>
-    <p className='mb-2'>Outside of software, I spend my time fencing, reading, making music, and learning new languages (currently Spanish and Swedish), and I’m always looking for ways to push my skills further or pick up new ones.</p>
-    <p className=''>I’m currently looking for a 4-12+ month co-op position starting in Summer 2026.</p>
+    <p className='mb-2'>I'm a fourth year Software Engineering student at McMaster University, with experience in software development, cybersecurity, and more. I started with game development and have since worked across full-stack web development, databases, machine learning, cybersecurity, and robotics through academic, personal, and team-based projects.</p>
+    <p className='mb-2'>Outside of tech, I spend my time reading, making music, practicing the piano, guitar, and drums, fencing, and learning new languages (currently Spanish and Swedish). I’m always looking for opportunities to push my skills further or pick up new ones.</p>
+    <p className=''>I’m currently looking for a 4-12+ month co-op position starting in Winter 2027.</p>
   </>
 
 
@@ -27,8 +27,8 @@ const About = () => {
     <section id='about'>
       <div className='md:grid md:grid-cols-2 gap-8 items-start pb-8 px-4 xl:gap-8 sm:pb-16 xl:px-16'>
         <div className='overflow-hidden flex flex-col justify-center items-center'>
-          <Image src="/images/leia.jpg" alt='About Image' width={500} height={500} className='w-full h-auto xl:w-[24rem] xl:h-[24rem] rounded-3xl border-2 border-cinder shadow-xl mt-20'/>
-          <p className='text-gray-400 ml-4 mt-2 text-sm'>~Placeholder image, to be updated soon</p>
+          <Image src="/images/me.jpg" alt='About Image' width={500} height={500} className='w-full h-auto xl:w-[24rem] rounded-3xl border-2 border-cinder shadow-xl mt-20'/>
+          {/* <p className='text-gray-400 ml-4 mt-2 text-sm'>~Placeholder image, to be updated soon</p> */}
         </div>
         
         <div className='mt-0 text-left flex flex-col h-full'>
